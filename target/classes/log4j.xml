@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+    <appender name="stdout" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yy-MM-dd HH:mm:ss,SSS} %-5p %c(%F:%L) ## %m%n" />
+        </layout>
+    </appender>
+
+    <!-- 输出日志到文件 -->
+    <appender name="DatabaseAppender" class="org.apache.log4j.FileAppender">
+        <!-- 输出文件全路径名-->
+        <param name="File" value="logs/database.log"/>
+        <!--<param name="File" value="/var/logs/spider/database.log"/>-->
+        <!--是否在已存在的文件追加写：默认时true，若为false则每次启动都会删除并重新新建文件-->
+        <!--<param name="Append" value="false"/>-->
+        <!--<param name="Threshold" value="INFO"/>-->
+        <!--&lt;!&ndash;是否启用缓存，默认false&ndash;&gt;-->
+        <!--<param name="BufferedIO" value="false"/>-->
+        <!--&lt;!&ndash;缓存大小，依赖上一个参数(bufferedIO), 默认缓存大小8K  &ndash;&gt;-->
+        <!--<param name="BufferSize" value="512"/>-->
+        <!-- 日志输出格式 -->
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="[%p][%d{yyyy-MM-dd HH:mm:ss SSS}][%c]-[%m]%n"/>
+        </layout>
+    </appender>
+
+    <!-- 将日志信息输出到文件，但是当文件的大小达到某个阈值的时候，日志文件会自动回滚 -->
+    <appender name="RollingFileAppender" class="org.apache.log4j.RollingFileAppender">
+        <!-- 设置日志信息输出文件全路径名 -->
+        <!--<param name="File" value="D:/cache/spider/logs/RollingFileAppender.log" />-->
+        <param name="File" value="logs/spiderInfo/RollingFileAppender.log" />
+        <!-- 设置是否在重新启动服务时，在原有日志的基础添加新日志 -->
+        <param name="Append" value="true" />
+        <!-- 设置保存备份回滚日志的最大个数 -->
+        <param name="MaxBackupIndex" value="10" />
+        <!-- 设置当日志文件达到此阈值的时候自动回滚，单位可以是KB，MB，GB，默认单位是KB -->
+        <param name="MaxFileSize" value="100MB" />
+        <!-- 设置日志输出的样式 -->
+        <layout class="org.apache.log4j.PatternLayout">
+            <!-- 设置日志输出的格式 -->
+            <param name="ConversionPattern" value="[%d{yyyy-MM-dd HH:mm:ss:SSS}] [%-5p] [method:%l]%n%m%n%n" />
+        </layout>
+    </appender>
+
+    <logger name="site.myall.SqliteJDBC" additivity="false">
+        <level value="warn" />
+        <appender-ref ref="DatabaseAppender" />
+    </logger>
+
+    <root>
+        <level value="info" />
+        <appender-ref ref="RollingFileAppender" />
+    </root>
+
+</log4j:configuration>

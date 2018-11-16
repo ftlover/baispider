@@ -1,0 +1,168 @@
+[2018-10-21 12:52:02:556] [INFO ] [method:us.codecraft.webmagic.Spider.run(Spider.java:306)]
+Spider caitabts.com started!
+
+[2018-10-21 12:52:03:385] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87
+
+[2018-10-21 12:52:05:998] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=1
+
+[2018-10-21 12:52:08:609] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=2
+
+[2018-10-21 12:52:11:076] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=3
+
+[2018-10-21 12:52:15:591] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=4
+
+[2018-10-21 12:52:18:191] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=5
+
+[2018-10-21 12:52:20:601] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=6
+
+[2018-10-21 12:52:22:873] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=7
+
+[2018-10-21 12:52:24:375] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=8
+
+[2018-10-21 12:52:25:670] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=9
+
+[2018-10-21 12:52:27:118] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=10
+
+[2018-10-21 12:52:28:061] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=11
+
+[2018-10-21 12:52:29:624] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=12
+
+[2018-10-21 12:52:31:163] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=13
+
+[2018-10-21 12:52:32:391] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=14
+
+[2018-10-21 12:52:33:393] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=15
+
+[2018-10-21 12:52:35:216] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=16
+
+[2018-10-21 12:52:37:205] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=17
+
+[2018-10-21 12:52:39:371] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=18
+
+[2018-10-21 12:52:42:735] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=19
+
+[2018-10-21 12:52:44:964] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=20
+
+[2018-10-21 12:52:46:180] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=21
+
+[2018-10-21 12:52:48:017] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=22
+
+[2018-10-21 12:52:49:736] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=23
+
+[2018-10-21 12:52:51:666] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=24
+
+[2018-10-21 12:52:53:461] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=25
+
+[2018-10-21 12:53:03:874] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=26
+
+[2018-10-21 12:53:06:016] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=27
+
+[2018-10-21 12:53:08:224] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=28
+
+[2018-10-21 12:53:11:424] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=29
+
+[2018-10-21 12:53:13:448] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=30
+
+[2018-10-21 12:53:16:131] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=31
+
+[2018-10-21 12:53:19:257] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=32
+
+[2018-10-21 12:53:21:522] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=33
+
+[2018-10-21 12:53:23:528] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=34
+
+[2018-10-21 12:53:26:000] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=35
+
+[2018-10-21 12:53:27:514] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=36
+
+[2018-10-21 12:53:29:713] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=37
+
+[2018-10-21 12:53:31:829] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=38
+
+[2018-10-21 12:53:33:805] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=39
+
+[2018-10-21 12:53:35:717] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=40
+
+[2018-10-21 12:53:38:368] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=41
+
+[2018-10-21 12:53:40:256] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=42
+
+[2018-10-21 12:53:41:996] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=43
+
+[2018-10-21 12:53:42:956] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=forumdisplay&fid=87&page=44
+
+[2018-10-21 12:53:43:625] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=viewthread&tid=3006&extra=page%3D1
+
+[2018-10-21 12:53:46:416] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=viewthread&tid=2538&extra=page%3D1
+
+[2018-10-21 12:53:48:808] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=viewthread&tid=5348&extra=page%3D1
+
+[2018-10-21 12:53:51:236] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=viewthread&tid=5347&extra=page%3D1
+
+[2018-10-21 12:53:53:600] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=viewthread&tid=5390&extra=page%3D1
+
+[2018-10-21 12:53:54:935] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=viewthread&tid=5418&extra=page%3D1
+
+[2018-10-21 12:53:57:226] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=viewthread&tid=5416&extra=page%3D1
+
+[2018-10-21 12:53:59:108] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=viewthread&tid=5367&extra=page%3D1
+
+[2018-10-21 12:54:00:172] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=viewthread&tid=5393&extra=page%3D1
+
+[2018-10-21 12:54:03:600] [INFO ] [method:us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:86)]
+downloading page success http://caitabts.com/forum.php?mod=viewthread&tid=5385&extra=page%3D1
+

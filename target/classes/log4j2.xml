@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <properties>
+        <property name="LOG_HOME">logs</property>
+    </properties>
+
+    <CustomLevels>
+        <CustomLevel name="DATAINFO" intLevel="350" />
+    </CustomLevels>
+
+    <Appenders>
+
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+
+        <File name="DataFileAppender" fileName="${LOG_HOME}/database.log">
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss:SSS}] [%-5p] %n%m%n%n" />
+            <Filters>
+                <ThresholdFilter level="warn" onMatch="DENY" onMismatch="NEUTRAL" />
+                <ThresholdFilter level="DATAINFO" onMatch="ACCEPT" onMismatch="DENY" />
+            </Filters>
+        </File>
+
+        <File name="FileAppender" fileName="${LOG_HOME}/info.log">
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss:SSS}] [%-4p] %n%m%n%n" />
+            <Filters>
+                <ThresholdFilter level="DATAINFO" onMatch="DENY" onMismatch="NEUTRAL" />
+                <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
+            </Filters>
+        </File>
+
+        <File name="ImportantFileAppender" fileName="${LOG_HOME}/important.log">
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss:SSS}] [%-4p] %n%m%n%n" />
+            <Filters>
+                <ThresholdFilter level="FATAL" onMatch="DENY" onMismatch="NEUTRAL" />
+                <ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY" />
+            </Filters>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <logger name = "dataInfoLog" level = "DATAINFO">
+            <AppenderRef ref="DataFileAppender"/>
+        </logger>
+        <logger name = "infoLog" level = "info">
+            <AppenderRef ref="FileAppender"/>
+        </logger>
+        <logger name = "importantLog" level = "warn">
+            <AppenderRef ref="ImportantFileAppender"/>
+        </logger>
+
+        <Root level = "all">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileAppender" />
+            <AppenderRef ref="DataFileAppender" />
+            <AppenderRef ref="ImportantFileAppender" />
+        </Root>
+    </Loggers>
+</Configuration>
+
