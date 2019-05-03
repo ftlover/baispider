@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BaiSpider" />
+        <module name="bai-spider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BaiSpider" target="10" />
+      <module name="bai-spider" target="1.8" />
+      <module name="baispider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

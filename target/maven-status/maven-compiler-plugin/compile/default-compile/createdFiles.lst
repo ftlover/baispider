@@ -1,5 +1,7 @@
-site\myall\SpiderPipline.class
-site\myall\PageHandler.class
-site\myall\Result.class
+site\myall\util\SpiderUtil.class
+site\myall\core\DataPipline.class
+site\myall\dao\JDBCUtil.class
+site\myall\bean\Result.class
 site\myall\SpiderIn.class
-site\myall\Sqlite3.class
+site\myall\core\PageHandler.class
+site\myall\dao\Sqlite.class

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BaiSpider.iml" filepath="$PROJECT_DIR$/BaiSpider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bai-spider.iml" filepath="$PROJECT_DIR$/bai-spider.iml" />
     </modules>
   </component>
 </project>

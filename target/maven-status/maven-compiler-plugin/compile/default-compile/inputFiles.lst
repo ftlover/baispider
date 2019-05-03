@@ -1,5 +1,7 @@
-F:\code\IDEA\baispider\src\main\java\site\myall\SpiderIn.java
-F:\code\IDEA\baispider\src\main\java\site\myall\PageHandler.java
-F:\code\IDEA\baispider\src\main\java\site\myall\Result.java
-F:\code\IDEA\baispider\src\main\java\site\myall\SpiderPipline.java
-F:\code\IDEA\baispider\src\main\java\site\myall\Sqlite3.java
+G:\code\spider\baispider\src\main\java\site\myall\SpiderIn.java
+G:\code\spider\baispider\src\main\java\site\myall\core\PageHandler.java
+G:\code\spider\baispider\src\main\java\site\myall\util\SpiderUtil.java
+G:\code\spider\baispider\src\main\java\site\myall\dao\Sqlite.java
+G:\code\spider\baispider\src\main\java\site\myall\core\DataPipline.java
+G:\code\spider\baispider\src\main\java\site\myall\bean\Result.java
+G:\code\spider\baispider\src\main\java\site\myall\dao\JDBCUtil.java
